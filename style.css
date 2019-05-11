@@ -106,7 +106,7 @@ footer {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 75px;
+  padding: 20px 50px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -151,6 +151,8 @@ footer {
     background-size: cover;
   }
 
+
+@media screen and (max-width: 600px) {
   .topnav {
     max-height: none;
   }
@@ -159,6 +161,9 @@ footer {
     display: block;
     height: auto;
   }
+
+}
+
 
 
 }
@@ -206,12 +211,6 @@ footer {
   display: block;
   margin: auto;
   max-height: 80px;
-}
-
-.banner {
-  display: block;
-  margin: auto;
-  max-height: 200px;
 }
 
 input#submit {
