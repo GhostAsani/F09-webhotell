@@ -184,7 +184,9 @@ footer {
   body {
     grid-template-areas: "h h""a a""f f";
   }
-
+  p{
+    font-size: 40px;
+  }
 }
 /*---------------------------------------------------------
                         Bilder
