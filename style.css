@@ -8,12 +8,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
-  grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
   grid-template-rows: 1fr auto auto;
   grid-template-areas:
-    "h h h h"
-    "s1 a a s2"
-    "f f f f";
+    "h h h"
+    "s1 a s2"
+    "f f f";
 }
 
 fieldset{
@@ -138,10 +138,16 @@ footer {
                 Mobil anpassnings delen
 --------------------------------------------------------- */
 @media screen and (max-width: 800px) {
+  body {
+    grid-template-areas: "h h h""a a a""f f f";
+  }
+}
+
+@media screen and (max-width: 800px) {
   .topnav {
     max-height: none;
   }
-  }
+}
 
 
 @media screen and (max-width: 800px) {
@@ -177,15 +183,6 @@ footer {
     overflow: hidden;
     margin-top: 42px;
     margin-bottom: 0px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  body {
-    grid-template-areas: "h h""a a""f f";
-  }
-  p{
-    font-size: 40px;
   }
 }
 /*---------------------------------------------------------
