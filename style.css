@@ -146,6 +146,9 @@ footer {
   body {
     grid-template-areas: "h h h""a a a""f f f";
   }
+  p{
+    padding: 40px;
+  }
 }
 
 @media screen and (max-width: 800px) {
