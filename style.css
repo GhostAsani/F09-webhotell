@@ -138,26 +138,11 @@ footer {
                 Mobil anpassnings delen
 --------------------------------------------------------- */
 @media screen and (max-width: 800px) {
-  body {
-    grid-template-areas: "h h""a a""f f";
-  }
-
-
-@media screen and (max-width: 800px) {
   .topnav {
     max-height: none;
   }
-
-  .banner {
-    display: block;
-    height: auto;
   }
 
-}
-
-
-
-}
 
 @media screen and (max-width: 800px) {
   .topnav a {
@@ -195,6 +180,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    grid-template-areas: "h h""a a""f f";
+  }
+
+}
 /*---------------------------------------------------------
                         Bilder
 --------------------------------------------------------- */
