@@ -33,6 +33,7 @@ h1 {
 
 h2 {
   font-size: 28px;
+  padding: 3px;
   text-align: center;
   color: white;
 }
@@ -41,9 +42,7 @@ h2 {
   text-align: center;
   color: white;
   font-size: 22px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
+  padding: 30px;
 }
 
 a#mejl {
