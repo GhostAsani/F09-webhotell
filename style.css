@@ -2,7 +2,7 @@
                             body
 ---------- ----------------------------------------------- */
 body {
-  background-color: black; 
+  background-color: black;
   background-image: url("hotell-back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ input#submit {
 /*---------------------------------------------------------
                 Mobil anpassnings delen
 --------------------------------------------------------- */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   body {
     grid-template-areas:
       "h h h h"
@@ -175,7 +175,7 @@ input#submit {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .topnav a {
     display: none;
   }
@@ -186,7 +186,7 @@ input#submit {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
   }
