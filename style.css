@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: 1fr 3.6fr 1fr;
   grid-template-areas:
     "h h h"
     "s1 a s2"
@@ -142,7 +142,7 @@ footer {
 /*---------------------------------------------------------
                 Mobil anpassnings delen
 --------------------------------------------------------- */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   body {
     grid-template-areas: "h h h""a a a""f f f";
   }
