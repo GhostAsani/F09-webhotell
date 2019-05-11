@@ -19,20 +19,20 @@ body {
 fieldset{
   color: white;
   background-color: white;
-  font-size: 25px;
+  font-size: 22px;
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 33px;
   text-align: center;
   color: white;
   padding: 5px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   color: white;
 }
@@ -40,31 +40,31 @@ h2 {
 .normalP {
   text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 a#mejl {
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   color: white;
   padding: 5px;
 }
 
 .kontakt {
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 label{
   padding: 20px;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 /*----------------------------------------------- ----------
