@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
-  grid-template-rows: 0.6fr auto auto;
+  grid-template-rows: 1fr auto auto;
   grid-template-areas:
     "h h h h"
     "s1 a a s2"
@@ -106,7 +106,7 @@ footer {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 100px;
+  padding: 20px 100px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -140,12 +140,12 @@ footer {
 @media screen and (max-width: 600px) {
   body {
   display: grid;
-  grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
-  grid-template-rows: 0.6fr auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto auto;
     grid-template-areas:
-      "h h h h"
-      "a a a a"
-      "f f f f";
+      "h h"
+      "a a"
+      "f f";
     background-image: url("hotell-back.jpg");
     background-position: center;
     background-size: cover;
