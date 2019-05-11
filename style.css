@@ -142,7 +142,7 @@ footer {
 /*---------------------------------------------------------
                 Mobil anpassnings delen
 --------------------------------------------------------- */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   body {
     grid-template-areas: "h h h""a a a""f f f";
   }
