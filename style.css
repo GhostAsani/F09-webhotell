@@ -146,7 +146,7 @@ footer {
     grid-template-areas: "h h h""a a a""f f f";
   }
   p{
-    padding: 40px;
+    padding: 70px;
   }
 }
 
