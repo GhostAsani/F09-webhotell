@@ -127,25 +127,6 @@ footer {
 }
 
 /*---------------------------------------------------------
-                        Bilder
---------------------------------------------------------- */
-.logo {
-  display: block;
-  margin: auto;
-  max-height: 80px;
-}
-
-.banner {
-  display: block;
-  margin: auto;
-  max-height: 200px;
-}
-
-input#submit {
-  max-height: 150px;
-}
-
-/*---------------------------------------------------------
                         Karta
 --------------------------------------------------------- */
 
@@ -216,4 +197,23 @@ input#submit {
     margin-top: 42px;
     margin-bottom: 0px;
   }
+}
+
+/*---------------------------------------------------------
+                        Bilder
+--------------------------------------------------------- */
+.logo {
+  display: block;
+  margin: auto;
+  max-height: 80px;
+}
+
+.banner {
+  display: block;
+  margin: auto;
+  max-height: 200px;
+}
+
+input#submit {
+  max-height: 150px;
 }
