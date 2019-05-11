@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hotell</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="hotell-logo.svg" alt="Hotell logga" />
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Menu</a>
+      <a class="active" href="boka.html">Boka</a>
+      <a href="hitta.html">Hitta</a>
+      <a href="kontakta.html">Kontakta</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+  </header>
+  <section id="one">
+  </section>
+  <article>
+    <form method="GET">
+      <fieldset>
+        <legend>Persondata</legend>
+        <label for="name">Username:</label><input type="text" name="Username" id="name" required autofocus placeholder="Ditt Username" pattern="[a-zA-Z]{3,}" title="Skriv in hela ditt namn">
+        <label for="email">Email:</label><input type="text" name="Email" id="email" required placeholder="Din Email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{3,}" title="Skriv in korrekt email">
+        <label for="name">Land:</label><select name="Land" required>
+          <option value="">Välj</option>
+          <option value="US">US</option>
+          <option value="SVE">SVE </option>
+          <option value="UK">UK</option>
+          <option value="JP">JP</option>
+        </select>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend> Boknings deltaljer: </legend>
+        <label for="name">Datum:</label><input type="Date" name="Date" min="2019-02-25">
+        <label for="name">Hur många ska besöka hotellet:(Max 10)</label><input style="width: 50px;" type="number" name="numberOfGuestes" min="1" max="10">
+        <p>Mat inkluderar men vi har fina resturanger i hotellet vill ni ha rabatt till dem?
+        <label for="name">Ja</label><input type="radio" name="meals" value="yesMeals">
+        <label for="name">Nej</label><input type="radio" name="meals" value="noMeals">
+        </p>
+        <br>
+        <label for="name">Vill du ha en balkong?</label><input type="checkbox" name="balcony" value="yes" checked>
+        <br>
+        <input id="submit" type="image" src="submit-button.png" alt="Submit">
+
+      </fieldset>
+
+  </form>
+
+  </article>
+  <section id="two">
+  </section>
+  <footer>
+    <p class="normalP">Behöver du mer hjälp eller frågor? Mejla oss på: <a href="mailto:testadress@mail.com"> Tokyo Hotell</a> eller ring oss: 0729874689</p>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>
