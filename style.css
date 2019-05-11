@@ -137,22 +137,13 @@ footer {
 /*---------------------------------------------------------
                 Mobil anpassnings delen
 --------------------------------------------------------- */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   body {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr auto auto;
-    grid-template-areas:
-      "h h"
-      "a a"
-      "f f";
-    background-image: url("hotell-back.jpg");
-    background-position: center;
-    background-size: cover;
+    grid-template-areas: "h h""a a""f f";
   }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav {
     max-height: none;
   }
@@ -168,7 +159,7 @@ footer {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav a {
     display: none;
   }
@@ -179,7 +170,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .topnav.responsive {
     position: relative;
   }
